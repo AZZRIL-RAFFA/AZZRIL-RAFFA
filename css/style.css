@@ -1,5 +1,4 @@
 
-
 :root {
     --main-color: #443;
     --border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
@@ -178,6 +177,9 @@ section {
 }
 
 /* ABOUT */
+.about{
+    background: url(../img/b129e8fb72916f69253352b869fe7559.jpg)
+}
 
 .about .row {
     display: flex;
@@ -312,6 +314,13 @@ section {
     padding: 7rem 0;
 }
 
+.review{
+    min-height: 100vh;
+    padding-top: 12rem;
+    background: url(../img/a706c88b3fae4ce07fda7aed15ef6e36.jpg) no-repeat;
+    background-position: center;
+    background-size: cover
+}
 .review .review-slider .box {
     border: var(--border);
     border-radius: var(--border-radius);
